@@ -1,14 +1,12 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'ngr-root',
   template: `
-  <h1>
-    {{title}}
-  </h1>
+    <h1 class="display-4">{{title}}</h1>
   `,
-  styles: []
+  styles  : []
 })
 export class AppComponent {
-  title = 'ngr works!';
+  public title = 'Angular & Redux Workshop';
 }
