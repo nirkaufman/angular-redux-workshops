@@ -3,7 +3,14 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'ngr-root',
   template: `
-    <h1 class="display-4">{{title}}</h1>
+    <ngr-navbar></ngr-navbar>
+    <ngr-container>
+      <ngr-login></ngr-login>
+      <!--<ngr-list></ngr-list>-->
+      <!--<ngr-update></ngr-update>-->
+      <!--<ngr-loader></ngr-loader>-->
+    </ngr-container>
+    <ngr-footer></ngr-footer>
   `,
   styles  : []
 })
