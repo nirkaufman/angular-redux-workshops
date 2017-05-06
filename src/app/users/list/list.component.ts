@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  users = new Array(20);
+  users = new Array(5);
 
   constructor() { }
 
