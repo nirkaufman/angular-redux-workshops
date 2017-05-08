@@ -1,14 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'ngr-container',
-  templateUrl: './container.component.html',
+  template: `
+    <div class="container">
+      <ng-content></ng-content>
+    </div>
+  `,
 })
-export class ContainerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class ContainerComponent  {
 
 }

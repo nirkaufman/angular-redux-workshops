@@ -1,18 +1,16 @@
 export interface AppState {
-  api?: Api;
   user?: User;
-  users?: User[];
-}
-
-export interface Api {
-  pending: true;
-  errorMsg?: string;
+  list?: Item[];
 }
 
 export interface User {
+  firstName: string;
+  email: string;
+}
+
+export interface Item {
     created: string;
-    firstName: string;
-    lastName: string;
-    email: string;
-    address: string;
+    title: string;
+    completed: string;
+    edit: string;
 }

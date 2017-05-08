@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'ngr-navbar',
-  templateUrl: './navbar.component.html',
+  template: `
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <div class="container">
+        <a class="navbar-brand"
+           href="#">Angular & Redux Workshop</a>
+      </div>
+    </nav>
+  `,
 })
-export class NavbarComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class NavbarComponent {
 }

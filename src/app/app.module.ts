@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {AuthModule} from './auth/auth.module';
-import {CrudModule} from './users/users.module';
+import {ListModule} from './list/list.module';
 import {SharedModule} from './shared/shared.module';
 import {StoreModule} from './store/store.module';
 
@@ -14,7 +14,7 @@ import {StoreModule} from './store/store.module';
     BrowserModule,
     SharedModule,
     StoreModule,
-    CrudModule,
+    ListModule,
     AuthModule
   ],
   providers   : [],

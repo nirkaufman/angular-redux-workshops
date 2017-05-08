@@ -1,12 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'ngr-footer',
-  templateUrl: './footer.component.html'
+  template: `
+    <footer class="footer">
+      <div class="container">
+        <a href="http://twitter.com/nirkaufman"
+           target="_blank">@nirkaufman</a>
+      </div>
+    </footer>
+  `
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
