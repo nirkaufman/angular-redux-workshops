@@ -4,7 +4,6 @@ import {AppComponent} from './app.component';
 import {AuthModule} from './auth/auth.module';
 import {ListModule} from './list/list.module';
 import {SharedModule} from './shared/shared.module';
-import {StoreModule} from './store/store.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +12,6 @@ import {StoreModule} from './store/store.module';
   imports     : [
     BrowserModule,
     SharedModule,
-    StoreModule,
     ListModule,
     AuthModule
   ],
