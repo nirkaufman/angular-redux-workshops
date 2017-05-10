@@ -6,12 +6,13 @@ import {Component} from '@angular/core';
     <ngr-navbar></ngr-navbar>
     <ngr-container>
       <ngr-login></ngr-login>
-      <ngr-list></ngr-list>
-      <ngr-loader></ngr-loader>
+      <!--<ngr-register></ngr-register>-->
+      <!--<ngr-list></ngr-list>-->
+      <!--<ngr-loader></ngr-loader>-->
     </ngr-container>
     <ngr-footer></ngr-footer>
   `,
 })
 export class AppComponent {
-  
+
 }

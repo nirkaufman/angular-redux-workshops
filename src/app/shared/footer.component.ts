@@ -9,14 +9,9 @@ import {Component, OnInit} from '@angular/core';
            target="_blank">@nirkaufman</a>
       </div>
     </footer>
-  `
+  `,
+  styleUrls: ['footer.component.css']
 })
-export class FooterComponent implements OnInit {
-
-  constructor() {
-  }
-
-  ngOnInit() {
-  }
+export class FooterComponent  {
 
 }
