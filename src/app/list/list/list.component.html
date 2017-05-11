@@ -10,26 +10,11 @@
   <section class="main">
     <input class="toggle-all"
            type="checkbox">
-    <ul class="todo-list">
-      <li class="todo">
-        <div class="view">
-          <input class="toggle"
-                 type="checkbox">
-          <label>Todo Title</label>
-          <button class="destroy"></button>
-        </div>
-        <input class="edit"
-               type="text">
-      </li>
-    </ul>
+    <ngr-items></ngr-items>
   </section>
   <footer class="footer">
     <span class="todo-count">12 left</span>
-    <ul class="filters">
-      <li><a href="">All</a></li>
-      <li><a href="">Active</a></li>
-      <li><a href="#">Completed</a></li>
-    </ul>
+    <ngr-filters></ngr-filters>
     <button class="clear-completed">Clear completed</button>
   </footer>
 </section>

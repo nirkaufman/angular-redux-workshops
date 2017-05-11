@@ -5,12 +5,8 @@ import {Component} from '@angular/core';
   template: `
     <ngr-navbar></ngr-navbar>
     <ngr-container>
-      <ngr-login></ngr-login>
-      <!--<ngr-register></ngr-register>-->
-      <!--<ngr-list></ngr-list>-->
-      <!--<ngr-loader></ngr-loader>-->
+      <router-outlet></router-outlet>
     </ngr-container>
-    <ngr-footer></ngr-footer>
   `,
 })
 export class AppComponent {

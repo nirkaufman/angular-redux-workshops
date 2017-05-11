@@ -4,18 +4,11 @@
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
 body {
-  /* Margin bottom by footer height */
   padding-top: 90px;
-  margin-bottom: 60px;
 }
 
-
-/********************************/
-/********************************/
-/********************************/
-
+button,
+input[type="checkbox"] {
+  outline: none;
+}

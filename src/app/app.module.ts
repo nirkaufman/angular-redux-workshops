@@ -4,6 +4,9 @@ import {AppComponent} from './app.component';
 import {AuthModule} from './auth/auth.module';
 import {ListModule} from './list/list.module';
 import {SharedModule} from './shared/shared.module';
+import {RouterModule} from "@angular/router";
+import {routes} from "./app.routes";
+import {HistoryModule} from "./history/history.module";
 
 @NgModule({
   declarations: [
@@ -12,10 +15,11 @@ import {SharedModule} from './shared/shared.module';
   imports     : [
     BrowserModule,
     SharedModule,
+    RouterModule.forRoot(routes),
     ListModule,
-    AuthModule
+    AuthModule,
+    HistoryModule
   ],
-  providers   : [],
   bootstrap   : [AppComponent],
 })
 export class AppModule {
